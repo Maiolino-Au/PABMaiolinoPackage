@@ -1,17 +1,18 @@
 Package: PABMaiolinoPackages
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Custom R package for the Exam of Programming Approaches for Bioinformatics
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Aurelio", "Maiolino",
+      email = "aurelio.maiolino@edu.unito.it",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: This is a Custom R package done by Aurelio Maiolino for the exam of Programming Approaches for Bioinformatics.
+    This is a cours of in the 1st year 2sd semester of the Master's degree of Molecular Biotechnology, UniTo. 
+    Year 2024-2025
+License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
