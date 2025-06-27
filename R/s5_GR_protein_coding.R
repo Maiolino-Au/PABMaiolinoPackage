@@ -18,7 +18,7 @@ s5.GR.protein.coding <- function(
     path = "/sharedFolder/Data/Homo_sapiens.GRCh38.114.gtf.gz"
 ) {
   # Import the GTF file
-  data <- rtracklayer::import("Data/Homo_sapiens.GRCh38.114.gtf.gz")
+  data <- rtracklayer::import(path)
 
   # Standardize the names (in the files the chromosomes are called by number/letter)
   seqlevels(data) <- ifelse(
